@@ -52,7 +52,7 @@ The "new" method installs by default into /usr/local/bin (equivalent
 to a configure option of "--prefix=/usr/local").
 
 1. decide which of the above methods you wish to use
-2. cd to htk, then run ./configure (with appropriate options, run
+2. cd to htk, then run ./configure --disable-hslab (with appropriate options, run
    "./configure --help" if unsure).
    If you don't want to build the programs in HLMTools add the 
    --disable-hlmtools option.
